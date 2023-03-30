@@ -21,9 +21,12 @@ to call the Left Qty Value inside phtml page
 
 <?php
 
+
 $blockObj= $block->getLayout()->createBlock('Maxmize\LeftQty\Block\LeftQty');
 
+
 echo $blockObj->saleble();
+
 
 ?>
 

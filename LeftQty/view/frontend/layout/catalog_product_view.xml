@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="alert.urls">
+            <block class="Maxmize\LeftQty\Block\LeftQty" name="catalog.product.view.leftqtyshow"
+                   before="product.info.addtocart" template="Maxmize_LeftQty::leftqty.phtml" cacheable="false"/>
+        </referenceBlock>
+    </body>
+</page>
